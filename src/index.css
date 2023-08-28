@@ -6,7 +6,7 @@ font-family: 'Playfair Display', serif;
 
 @layer base {
   body {
-    @apply overflow-hidden text-primary font-secondary bg-white;
+    @apply  text-primary font-secondary bg-white;
     font-family: 'Playfair Display', serif;
 font-family: 'Rubik', sans-serif;
   }
@@ -17,6 +17,6 @@ font-family: 'Rubik', sans-serif;
     @apply h-screen w-screen;
   }
   .btn {
-    @apply py-[8px] px-[20px] h-[50px] flex items-center justify-center text-base uppercase font-bold bg-primary text-white;
+    @apply py-[5px] px-[15px] h-[40px] flex items-center justify-center uppercase font-bold bg-primary text-white;
   }
 }

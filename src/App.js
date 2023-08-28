@@ -3,18 +3,17 @@ import './App.css';
 import Navbar from './componets/Navbar';
 import Header from './componets/Hero';
 import Hero from './componets/Hero';
-import { BrowserRouter as Router} from 'react-router-dom';
+import { Route, Routes } from "react-router-dom";
 import AboutMe from './componets/AboutMe';
-
+import Home from './pages/Home';
 
 function App() {
   return (
-    <div className="App">
-    <Router>
-    <Navbar />
-    <Hero />
-    <AboutMe />
-    </Router>
+    <div className="bg-gray-200 pt-2">
+    <Routes>
+    <Route path="/" element={<Home/>}/>
+  </Routes>
+  
     </div>
   );
 }
