@@ -4,7 +4,7 @@ import LinkedInIcon from '@mui/icons-material/LinkedIn';
 
 const Footer = () => {
   return (
-    <div className='bg-gray-600 h-32 w-full flex items-center justify-center pb-5 lg:pb-0'>
+    <div className='bg-black/95 h-32 w-full flex items-center justify-center pb-5 lg:pb-0'>
       <hr />
       <div className='text-white flex items-center'>
         <a

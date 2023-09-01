@@ -7,7 +7,7 @@ const Navbar = () => {
   const [openMenu, setOpenMenu] = useState(false);
 
   return (
-    <div className="bg-gray-500/80 lg:rounded-2xl mt-3 mx-9 rounded-2xl drop-shadow-2xl shadow-2xl">
+    <div className="bg-black/95 lg:rounded-2xl mt-3 mx-9 rounded-2xl drop-shadow-2xl shadow-2xl">
       <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
         <a href="/" className="flex items-center">
           <TerminalIcon className="text-white" fontSize="large" />

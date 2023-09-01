@@ -6,23 +6,20 @@ import ButtonGroup from '@mui/material/ButtonGroup';
 const AboutMe = () => {
   return (
     <div>
-    <div id="about" className="relative bg-white overflow-hidden mb-6 mt-3 lg:my-10 mx-10 lg:mx-0 lg:rounded-none rounded-2xl shadow-xl drop-shadow-xl">
+    <div id="about" className="relative bg-black/90 overflow-hidden mb-6 mt-3 lg:my-10 mx-10 lg:mx-0 lg:rounded-none rounded-2xl shadow-xl drop-shadow-xl">
     <div className="max-w-7xl mx-auto">
-        <div className="relative z-10 pb-8 bg-white sm:pb-16 md:pb-20 lg:max-w-2xl lg:w-full lg:pb-28 xl:pb-32">
-            <svg className="hidden lg:block absolute right-0 inset-y-0 h-full w-48 text-white transform translate-x-1/2"
-                fill="currentColor" viewBox="0 0 100 100" preserveAspectRatio="none" aria-hidden="true">
-                <polygon points="50,0 100,0 50,100 0,100"></polygon>
-            </svg>
+        <div className="relative z-10 pb-8  sm:pb-16 md:pb-20 lg:max-w-2xl lg:w-full lg:pb-28 xl:pb-32">
+          
 
             <div className="pt-1"></div>
 
             <main className="mt-10 mx-auto max-w-7xl px-4 sm:mt-12 sm:px-6 md:mt-16 lg:mt-20 lg:px-8 xl:mt-28">
                 <div className="sm:text-center lg:text-left">
-                    <h2 className="h1 my-6 text-2xl tracking-tight font-extrabold text-gray-900 sm:text-3xl md:text-4xl">
+                    <h2 className="h1 my-6 text-2xl tracking-tight font-extrabold text-white sm:text-3xl md:text-4xl">
                         About me
                     </h2>
 
-                    <p>
+                    <p className='text-white'>
                         Donec porttitor, enim ut dapibus lobortis, lectus sem tincidunt dui, eget ornare lectus ex non
                         libero. Nam rhoncus diam ultrices porttitor laoreet. Ut mollis fermentum ex, vel viverra lorem
                         volutpat sodales. In ornare porttitor odio sit amet laoreet. Sed laoreet, nulla a posuere

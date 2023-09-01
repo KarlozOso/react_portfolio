@@ -38,7 +38,7 @@ const Hero = () => {
         animate={{ scale: 1 }}
         exit={{ scale: 0 }}
         transition={transition1}
-        to="/contact"className='btn -my-5 lg:p-5 lg:mb-32 rounded-3xl bg-gray-900 hover:bg-blue-800  text-sm hover:scale-110 italic lg:text-5xl cursor-pointer'>
+        to="/contact"className='btn -my-5 lg:p-5 lg:mb-32 rounded-3xl bg-blue-600 hover:bg-blue-800  text-sm hover:scale-110 italic lg:text-5xl cursor-pointer'>
           contact ME
           <motion.div
           variant="contained"

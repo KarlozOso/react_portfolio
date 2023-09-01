@@ -16,7 +16,7 @@ const Section = () => {
 
   return (
     
-    <div className='mx-8 flex flex-col-reverse items-center justify-center bg-gray-600/80 min-h-[320px] rounded-xl mt-2 p-4 sm:flex-row sm:p-0 mb-8 '>
+    <div className='mx-8 flex flex-col-reverse items-center justify-center bg-black/90 min-h-[320px] rounded-xl mt-2 p-4 sm:flex-row sm:p-0 mb-8 '>
       <div className='w-full sm:w-[50%] h-auto sm:h-[500px] flex flex-col justify-center'>
         <div className="px-6 py-4">
           <div className="font-bold text-xl mb-2 dark:text-gray-300">The Coldest Sunset</div>
