@@ -7,10 +7,10 @@ const Navbar = () => {
   const [openMenu, setOpenMenu] = useState(false);
 
   return (
-    <div className="bg-black/95 lg:rounded-2xl mt-3 mx-9 rounded-2xl drop-shadow-2xl shadow-2xl">
+    <div className="bg-black/95 lg:rounded-2xl mt-3 lg:mx-9 mx-2 rounded-2xl drop-shadow-2xl shadow-2xl mb-0">
       <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
         <a href="/" className="flex items-center">
-          <TerminalIcon className="text-white" fontSize="large" />
+          <TerminalIcon className="text-white hover:text-blue-600" fontSize="large" />
         </a>
         <button
           type="button"

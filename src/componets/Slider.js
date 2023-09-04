@@ -23,7 +23,7 @@ const Slider = ({ images }) => {
 
   return (
     <div className=''>
-      <div className='flex items-center justify-end mt-2 mx-6 mb-2'>
+      <div className='flex items-center justify-end my-3 mx-2 mb-2'>
         <div className='rounded-xl overflow-hidden'>
           <div className='relative'>
             <img

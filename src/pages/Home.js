@@ -5,6 +5,7 @@ import AboutMe from '../componets/AboutMe'
 import Slider from '../componets/Slider'
 import Section from '../componets/Section'
 import Footer from '../componets/Footer'
+import ContactMe from '../componets/ContactMe'
 
 
 const Home = () => {
@@ -14,6 +15,7 @@ const Home = () => {
       <Hero />
       <AboutMe />
       <Section />
+      <ContactMe />
       <Footer />
     </div>
   )
