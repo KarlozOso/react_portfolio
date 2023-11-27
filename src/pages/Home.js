@@ -11,7 +11,7 @@ import ContactMe from '../componets/ContactMe'
 const Home = () => {
   return (
     <div>
-      <Navbar />
+      <Navbar/>
       <Hero />
       <AboutMe />
       <Section />
